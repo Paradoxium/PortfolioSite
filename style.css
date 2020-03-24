@@ -1,0 +1,56 @@
+html,body{
+    background-color:black;
+    margin: 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Bitter', serif;
+    color: #ffd154;
+}
+
+h1{
+    color:#ffd154;
+    text-align: center;
+}
+
+.menu{
+    background-image: linear-gradient(90deg, blue, gray, blue);
+    border-top: 6px solid #ffd154;
+    height: 75px;
+    width: 100%;
+}
+
+li{
+    display:inline-flex;
+    padding-left: 10%;
+    width: 200px;
+    height:100%;
+    top: 10px;
+}
+
+li a{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffd154;
+}
+
+.pic{
+    display: inline-flex;
+    float:left;
+    width:50%;
+}
+
+.pic img{
+    border-radius: 10px;
+}
+
+.bio{
+    float:right;
+    width: 45%;
+}
+
+.bio h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+
